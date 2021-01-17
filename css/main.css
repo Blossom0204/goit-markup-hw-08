@@ -430,6 +430,14 @@ img {
   }
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
 .features {
   min-height: 101px;
   padding-bottom: 94px;
