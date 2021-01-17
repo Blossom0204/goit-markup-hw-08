@@ -52,18 +52,24 @@ img {
 @media screen and (min-width: 480px) {
   .container {
     max-width: 480px;
+    padding: 0 15px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding: 0 15px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
   }
 }
 
@@ -505,9 +511,7 @@ img {
   }
 }
 
-.work-title,
-.team-title,
-.clients-title {
+.work-title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -555,10 +559,18 @@ img {
 }
 
 .team {
-  display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #f5f4fa;
+}
+
+.team-title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.172;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-name {
@@ -571,10 +583,6 @@ img {
   letter-spacing: 0.03em;
 }
 
-.team-items {
-  display: flex;
-}
-
 .team-card {
   background-color: #ffffff;
   padding-bottom: 30px;
@@ -583,7 +591,7 @@ img {
 }
 
 .team-link:not(:last-child) {
-  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .team-position {
@@ -597,7 +605,7 @@ img {
 
 .social-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-right: 32px;
   margin-left: 32px;
   margin-top: 16px;
@@ -627,6 +635,45 @@ img {
 .social-list-link:hover .icon,
 .social-list-link :focus .icon {
   fill: #ffffff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .team-link:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .team-picture {
+    width: 450px;
+    height: 460px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (min-width: 768px) {
+  .team-items {
+    display: flex;
+  }
+  .team-picture {
+    width: 354px;
+    height: 374px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (min-width: 1200px) {
+  .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .team-title {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
+  .team-link:not(:last-child) {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+  .team-picture {
+    width: 260px;
+    height: 270px;
+  }
 }
 
 .clients {
@@ -670,6 +717,15 @@ img {
 .icon-5,
 .icon-6 {
   fill: currentColor;
+}
+
+.clients-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.172;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .backdrop {
