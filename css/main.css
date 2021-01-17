@@ -516,38 +516,42 @@ img {
   letter-spacing: 0.03em;
 }
 
-.work {
-  display: flex;
-  padding-bottom: 94px;
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+  .work {
+    display: none;
+  }
 }
 
-.work-items {
-  display: flex;
-}
-
-.work-link {
-  position: relative;
-}
-
-.work-link:not(:last-child) {
-  margin-right: 30px;
-}
-
-.work-link-text {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-top: 27px;
-  padding-bottom: 27px;
-  background-color: rgba(47, 48, 58, 0.8);
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.172;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+@media screen and (min-width: 1200px) {
+  .work {
+    display: flex;
+    padding-bottom: 94px;
+  }
+  .work-items {
+    display: flex;
+  }
+  .work-link {
+    position: relative;
+  }
+  .work-link:not(:last-child) {
+    margin-right: 30px;
+  }
+  .work-link-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.172;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
 }
 
 .team {
