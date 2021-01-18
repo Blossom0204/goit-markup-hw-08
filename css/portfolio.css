@@ -74,8 +74,6 @@ img {
 }
 
 .header {
-  display: flex;
-  align-items: center;
   padding-top: 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid #ececec;
@@ -90,6 +88,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .header {
+    display: flex;
     padding-top: 24px;
     padding-bottom: 25px;
   }
@@ -109,25 +108,16 @@ img {
   color: #2196f3;
 }
 
-.contacts {
-  margin-left: auto;
-}
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .contacts {
     display: none;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .contacts {
-    margin-left: 84px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .contacts {
     display: flex;
+    margin-left: 93px;
   }
 }
 
@@ -150,8 +140,8 @@ img {
   display: flex;
   align-items: center;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.172;
+  font-size: 12px;
+  line-height: 1.167;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
@@ -165,6 +155,14 @@ img {
   color: #2196f3;
 }
 
+@media screen and (min-width: 1200px) {
+  .contacts-mail,
+  .contacts-tel {
+    font-size: 14px;
+    line-height: 1.143;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts-mail {
     margin-bottom: 10px;
@@ -174,6 +172,12 @@ img {
 .navigation {
   display: flex;
   align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .navigation {
+    justify-content: space-between;
+  }
 }
 
 .site-nav-item:not(:last-child) {
@@ -368,20 +372,23 @@ img {
 .logo-color {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.174;
+  font-size: 24px;
+  line-height: 1.167;
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
 }
 
-.header .logo-color {
-  margin-right: 93px;
+@media screen and (min-width: 1200px) {
+  .logo-color {
+    font-size: 26px;
+    line-height: 1.174;
+  }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 1200px) {
   .header .logo-color {
-    margin-right: auto;
+    margin-right: 93px;
   }
 }
 
