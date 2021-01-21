@@ -6,17 +6,18 @@
   letter-spacing: 0.03em;
   color: $accent-color;
   text-decoration: none;
-  @media screen and (min-width: 1200px) {
-    font-size: 26px;
-    line-height: 1.174;
-  }
-  .header & {
-    // margin-right: 88px;
-    @media screen and (min-width: 1200px) {
-      margin-right: 93px;
-    }
-  }
+  // @media screen and (min-width: 1200px) {
+  //   font-size: 26px;
+  //   line-height: 1.174;
 }
+.header & {
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+  // @media screen and (min-width: 1200px) {
+  //   margin-right: 93px;
+}
+
 .logo-header {
   color: #212121;
 }
