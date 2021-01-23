@@ -410,12 +410,12 @@ img {
 .filter {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
   .filter {
     margin: -15px;
+    justify-content: start;
   }
 }
 
@@ -434,12 +434,20 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .filter-item {
+    max-width: 370px;
+    justify-content: space-between;
+  }
+}
+
 .filter-img {
   position: relative;
   overflow: hidden;
 }
 
 .filter-content {
+  height: 146px;
   padding: 20px 24px;
 }
 
