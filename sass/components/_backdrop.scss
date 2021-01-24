@@ -15,8 +15,9 @@
 .modal {
   padding: 40px;
   position: absolute;
-  width: 528px;
-  height: 581px;
+  max-width: 450px;
+  max-height: 605px;
+  width: 100%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scaleY(1);
@@ -25,9 +26,12 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-
   .backdrop.is-hidden & {
     transform: translate(-50%, -50%) scaleY(0.1);
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 528px;
+    max-height: 581px;
   }
 }
 .close-btn {
@@ -111,7 +115,7 @@
   margin-top: 10px;
 
   &::before {
-    content: "";
+    content: '';
     display: inline-block;
     width: 16px;
     height: 15px;
@@ -120,7 +124,7 @@
     margin-right: 7px;
 
     .modal-policy:checked + & {
-      background-image: url("../images/icon-check.svg");
+      background-image: url('../images/icon-check.svg');
       border: none;
     }
   }

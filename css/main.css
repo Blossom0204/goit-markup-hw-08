@@ -224,7 +224,6 @@ img {
 
 .site-nav-link {
   position: relative;
-  display: block;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -245,6 +244,7 @@ img {
 }
 
 .current::after {
+  display: block;
   position: absolute;
   content: '';
   width: 100%;
@@ -1056,8 +1056,9 @@ img {
 .modal {
   padding: 40px;
   position: absolute;
-  width: 528px;
-  height: 581px;
+  max-width: 450px;
+  max-height: 605px;
+  width: 100%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scaleY(1);
@@ -1069,6 +1070,13 @@ img {
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scaleY(0.1);
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    max-width: 528px;
+    max-height: 581px;
+  }
 }
 
 .close-btn {
@@ -1163,7 +1171,7 @@ img {
 }
 
 .modal-policy-text::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 16px;
   height: 15px;
