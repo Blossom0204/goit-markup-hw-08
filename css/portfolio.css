@@ -157,10 +157,9 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-mail:hover,
-.contacts-mail :focus,
+.contacts-mail:hover, .contacts-mail:focus,
 .contacts-tel:hover,
-.contacts-tel :focus {
+.contacts-tel:focus {
   color: #2196f3;
 }
 
@@ -231,8 +230,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav-link:hover,
-.site-nav-link :focus {
+.site-nav-link:hover, .site-nav-link:focus {
   color: #2196f3;
 }
 
@@ -428,8 +426,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-footer-link:hover,
-.contacts-footer-link :focus {
+.contacts-footer-link:hover, .contacts-footer-link:focus {
   color: #2196f3;
 }
 
@@ -444,10 +441,9 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-footer-mail:hover,
-.contacts-footer-mail :focus,
+.contacts-footer-mail:hover, .contacts-footer-mail:focus,
 .contacts-footer-tel:hover,
-.contacts-footer-tel :focus {
+.contacts-footer-tel:focus {
   color: #2196f3;
 }
 
@@ -472,8 +468,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link-footer:hover,
-.social-list-link-footer :focus {
+.social-list-link-footer:hover, .social-list-link-footer:focus {
   background-color: #2196f3;
 }
 
@@ -668,8 +663,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-gallery:hover,
-.btn-gallery :focus {
+.btn-gallery:hover, .btn-gallery:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
@@ -764,8 +758,7 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-link:hover,
-.filter-link :focus {
+.filter-link:hover, .filter-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /*# sourceMappingURL=portfolio.css.map */

@@ -157,10 +157,9 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-mail:hover,
-.contacts-mail :focus,
+.contacts-mail:hover, .contacts-mail:focus,
 .contacts-tel:hover,
-.contacts-tel :focus {
+.contacts-tel:focus {
   color: #2196f3;
 }
 
@@ -231,8 +230,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav-link:hover,
-.site-nav-link :focus {
+.site-nav-link:hover, .site-nav-link:focus {
   color: #2196f3;
 }
 
@@ -428,8 +426,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-footer-link:hover,
-.contacts-footer-link :focus {
+.contacts-footer-link:hover, .contacts-footer-link:focus {
   color: #2196f3;
 }
 
@@ -444,10 +441,9 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-footer-mail:hover,
-.contacts-footer-mail :focus,
+.contacts-footer-mail:hover, .contacts-footer-mail:focus,
 .contacts-footer-tel:hover,
-.contacts-footer-tel :focus {
+.contacts-footer-tel:focus {
   color: #2196f3;
 }
 
@@ -472,8 +468,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link-footer:hover,
-.social-list-link-footer :focus {
+.social-list-link-footer:hover, .social-list-link-footer:focus {
   background-color: #2196f3;
 }
 
@@ -638,8 +633,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-button:hover,
-.hero-button :focus {
+.hero-button:hover, .hero-button:focus {
   background-color: #188ce8;
 }
 
@@ -916,13 +910,11 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover,
-.social-list-link :focus {
+.social-list-link:hover, .social-list-link:focus {
   background-color: #2196f3;
 }
 
-.social-list-link:hover .icon,
-.social-list-link :focus .icon {
+.social-list-link:hover .icon, .social-list-link:focus .icon {
   fill: #ffffff;
 }
 
@@ -1005,14 +997,12 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-list-link:hover,
-.clients-list-link :focus {
+.clients-list-link:hover, .clients-list-link:focus {
   color: #2196f3;
   border-color: #2196f3;
 }
 
-.clients-list-link:hover :not(:last-child),
-.clients-list-link :focus :not(:last-child) {
+.clients-list-link:hover :not(:last-child), .clients-list-link:focus :not(:last-child) {
   margin-right: 30px;
 }
 
@@ -1225,8 +1215,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-btn:hover,
-.modal-form-btn :focus {
+.modal-form-btn:hover, .modal-form-btn:focus {
   background-color: #188ce8;
 }
 /*# sourceMappingURL=main.css.map */
